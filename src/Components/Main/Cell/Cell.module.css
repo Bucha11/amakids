@@ -1,0 +1,38 @@
+.cell {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  background-color: darkslateblue;
+}
+
+.success {
+  background-color: green;
+}
+
+.failed {
+  background-color: hotpink;
+}
+
+.start::after {
+  content: "Start";
+  position: absolute;
+  color: white;
+}
+
+.success::after {
+  content: "Success";
+  position: absolute;
+  color: white;
+}
+.failed::after {
+  content: "Fail";
+  position: absolute;
+  color: white;
+}

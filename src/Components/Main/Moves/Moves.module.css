@@ -1,0 +1,98 @@
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a0,
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6,
+.a7,
+.a8,
+.a9,
+.a10 {
+  opacity: 0;
+  border: 1px solid darkcyan;
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a0 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 0s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+
+.a1 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 2s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+.a2 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 3s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+
+.a3 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 4s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+
+.a4 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 5s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+.a5 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 6s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+.a6 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 7s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+
+.a7 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 8s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+.a8 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 9s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+.a9 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 10s; /* Задержка */
+  animation-fill-mode: forwards;
+}
+
+.a10 {
+  animation-name: fadeOut;
+  animation-duration: 2s; /* Продолжительность анимации */
+  animation-delay: 11s; /* Задержка */
+  animation-fill-mode: forwards;
+}
